@@ -73,9 +73,7 @@ class LinkedList:
         if position == 1:
             node  = Node(data)
             node.next = self.head
-            self.head = node
-
-            
+            self.head = node            
         prev_node = self.head
         current_node = prev_node.next
         
